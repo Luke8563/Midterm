@@ -1,0 +1,36 @@
+1. ssh cs15lwi23aee@ieng6.ucsd.edu   
+Katieslegs101  
+
+2. git clone https://github.com/ucsd-cse15l-w23/skill-demo1-server 
+
+3.
+javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
+java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore (tester File Name)  
+
+4.
+git clone https://github.com/ucsd-cse15l-w23/skill-demo1-data
+
+find written_2/ > find-results.txt //creates new file for results
+
+grep ".txt" find-results.txt > grep-results.txt //creates file with results
+wc grep-results.txt //shows how many total files
+
+grep -r "Lucayans" skill-demo1-data/ // shows which file has lucayans
+
+cd out
+
+cd into server
+copy the server
+
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+java java FileServer 3000 
+
+http://ieng6-203.ucsd.edu:3000
+
+search for "the"
+
+
+
+
+
+
