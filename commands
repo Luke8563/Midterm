@@ -23,7 +23,7 @@ cd into server
 copy the server
 
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
-java java FileServer 3000 
+java java FileServer 3000 skill-demo1-data
 
 http://ieng6-203.ucsd.edu:3000
 
